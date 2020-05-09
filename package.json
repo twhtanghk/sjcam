@@ -1,0 +1,26 @@
+{
+  "name": "sjcam",
+  "version": "0.0.1",
+  "description": "sjcam nodejs library",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "coffee test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twhtanghk/sjcam.git"
+  },
+  "author": "Tommy Tang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twhtanghk/sjcam/issues"
+  },
+  "homepage": "https://github.com/twhtanghk/sjcam#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "coffeescript": "^2.5.1",
+    "lodash": "^4.17.15",
+    "needle": "^2.4.1",
+    "xpath-stream": "0.0.9"
+  }
+}
